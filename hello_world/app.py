@@ -9,7 +9,7 @@ nlp = spacy.load("en_core_web_sm",disable = ['ner', 'tagger','lemmatizer','textc
 gpt3_url = "https://api.openai.com/v1/completions"
 gpt3_headers = {
     "content-type": "application/json",
-    "Authorization":"Bearer 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"
+    "Authorization":"Bearer XXXXXXXXX"
     }
 
 def getsentences(txt):
