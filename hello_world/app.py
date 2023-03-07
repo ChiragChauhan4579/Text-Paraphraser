@@ -3,7 +3,6 @@ import requests
 from concurrent.futures import ThreadPoolExecutor as Executor
 import spacy
 
-# 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
 nlp = spacy.load("en_core_web_sm",disable = ['ner', 'tagger','lemmatizer','textcat'])
 
 gpt3_url = "https://api.openai.com/v1/completions"
